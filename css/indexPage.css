@@ -1,0 +1,17 @@
+body{
+	background-color: #bfbfbf;
+	
+}
+
+p#title{
+	font-family: 'Bitter', sans-serif;
+	font-size:1.5em;
+	line-height:1em;
+}
+
+p#content{
+		font-family: 'Arvo', sans-serif;
+		font-size:1.2em;
+		line-height:1.3em;
+	
+}
