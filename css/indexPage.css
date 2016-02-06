@@ -2,16 +2,34 @@ body{
 	background-color: #bfbfbf;
 	
 }
-
+div#usglue-logo{
+	margin-bottom:1em;
+}
 p#title{
 	font-family: 'Bitter', sans-serif;
 	font-size:1.5em;
 	line-height:1em;
+	margin-top:auto;
+	
 }
 
 p#content{
 		font-family: 'Arvo', sans-serif;
 		font-size:1.2em;
 		line-height:1.3em;
-	
+		width:95%;
+		margin:auto;
+}
+p#hidden{
+	position:absolute;
+	bottom:0em;
+	right:1em;
+	color:#bfbfbf;
+}
+form{
+	margin-top:1em;
+	font-family:'Arvo',sans-serif;
+	font-size:1em;
+	line-height:1.2em;
+	text-align:center;
 }
