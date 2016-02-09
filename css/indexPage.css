@@ -12,7 +12,7 @@ p#title{
 	margin-top:auto;
 }
 
-p#content{
+p#description{
 		font-family: 'Arvo', sans-serif;
 		font-size:1.2em;
 		line-height:1.3em;
@@ -20,7 +20,7 @@ p#content{
 		margin:auto;
 }
 p#hidden{
-	position:absolute;
+	position:relative;
 	bottom:0em;
 	right:1em;
 	color:#bfbfbf;
