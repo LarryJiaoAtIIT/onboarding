@@ -1,5 +1,5 @@
 body{
-	background-color: #bfbfbf;
+	background-color: #2980b9;
 	
 }
 div#usglue-logo{
@@ -10,28 +10,44 @@ p#title{
 	font-size:1.5em;
 	line-height:1em;
 	margin-top:auto;
+	color:#ecf0f1;
 }
 
 p#description{
 		font-family: 'Arvo', sans-serif;
 		font-size:1.2em;
 		line-height:1.3em;
-		width:90%;
-		margin:auto;
+		width:80%;
+		max-width:40em;
+		color:#ecf0f1;
 }
 p#hidden{
 	position:relative;
 	bottom:0em;
 	right:1em;
-	color:#bfbfbf;
+	color:#2980b9;
 }
 form{
 	margin-top:1em;
 	font-family:'Arvo',sans-serif;
+	color:#ecf0f1;
 	font-size:1em;
 	line-height:1.2em;
-	text-align:center;
+	text-align:left;
+	
 }
+label#businesMail{
+	position:relative;
+}
+
+input[type=businessMail]{
+	font-family:'arvo',sans-serif;
+	font-size:1em;
+	height:1em;
+	width:15em;
+	display:block;
+}
+
 button{
 	margin:auto;
 	font-family:'Arvo',sans-serif;
