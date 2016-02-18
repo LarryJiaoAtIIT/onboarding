@@ -1,33 +1,61 @@
 html, body{
-	background-color:#c0392b;
+	background-color:0084FF;
 }
-/* Mobile CSS */
-@media (min-width:320px){
+
+@media (min-width:320px){ 
 	img{
 		display:block;
-		width:100px;
+		width:20%;
 		margin-bottom:5em;
 		margin:auto;
+		padding:1em 0 1em 0;
 	}
-	p#title, p#description, form, label{
+	p#title{
 		font-family:'Actor',sans-serif;
-		font-size:1em;
-		line-height:1.2em;
+		color:#ecf0f1;
+		background-color:4CA9FF;
+		font-size:2em;
+		line-height:1.3em;
+		width:66.667%;
+		text-align:center;
+		margin:auto;
+		position:relative;
+		padding:1.5em 3em 1.5em 3em;
+		
+	}
+	
+	p#description{
+		font-family:'Actor',sans-serif;
+		color:#ecf0f1;
+		background-color:0069CC;
+		line-height:1.5em;
+		width:66.667%;
+		margin:auto;
+		font-size:1.2em;
+		text-align:justify;
+		position:relative;
+		padding:1.5em 5em 1.5em 5em;
+	}
+	 form, label{
+		font-family:'Actor',sans-serif;
+		color:#ecf0f1;
+		line-height:1.5em;
 		width:66.6667%;
 		text-align:center;
 		margin:auto;
-	}
+		font-size:1.2em;
+		padding: 1em 0 1em 0;
+	 }
+	
 	p#hidden{
 		font-family:'Actor',sans-serif;
 		position:fixed;
-		bottom:0;
 		right:0;
 		width:25%;
-		margin:auto;
-		vertical-align:bottom;
+		margin-top:5em;
+		color:#0069CC;
 	}
-}
-/* Found Media Queries from StackOverflow */
+/*}*/
 @media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
 
@@ -44,7 +72,7 @@ html, body{
 
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
-
+/*
 div#usglue-logo{
 	margin-bottom:5em;
 	margin:auto;
@@ -107,6 +135,7 @@ button{
 	font-size:1em;
 	text-align:center;
 }
+*/
 }
 
 
