@@ -1,30 +1,32 @@
 html, body{
 	background-color:#c0392b;
-
+}
 /* Mobile CSS */
 @media (min-width:320px){
 	img{
 		display:block;
-		width:80%;
-		max-width:100px;
+		width:100px;
 		margin-bottom:5em;
-		max-width:100%;
+		margin:auto;
 	}
-	p#title, p#description{
+	p#title, p#description, form, label{
 		font-family:'Actor',sans-serif;
 		font-size:1em;
 		line-height:1.2em;
-		width:100%;
+		width:66.6667%;
 		text-align:center;
-	}
-	p#hidden{
-		position:relative;
-		display:block;
-		width:100%;
 		margin:auto;
 	}
+	p#hidden{
+		font-family:'Actor',sans-serif;
+		position:fixed;
+		bottom:0;
+		right:0;
+		width:25%;
+		margin:auto;
+		vertical-align:bottom;
+	}
 }
-
 /* Found Media Queries from StackOverflow */
 @media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 
@@ -43,16 +45,10 @@ html, body{
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
 
-}
-
-
-/* Desktop CSS */
-
-
-	
-}
 div#usglue-logo{
-	margin-bottom:1em;
+	margin-bottom:5em;
+	margin:auto;
+	width:15%;
 }
 p#title{
 	font-family: 'Actor', sans-serif;
@@ -111,3 +107,7 @@ button{
 	font-size:1em;
 	text-align:center;
 }
+}
+
+
+
